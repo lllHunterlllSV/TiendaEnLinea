@@ -149,6 +149,9 @@ main h2 {
     /* Opcional: añade relleno alrededor del texto */
     margin-bottom: 20px;
 }
+.carrito li:hover{
+    cursor: pointer;
+}
 
 #info {
     margin-top: 0;
