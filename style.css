@@ -172,8 +172,8 @@ main h2 {
 }
 
 #info li:hover {
-    color: #123a46;
-    background-color: #ead6bb;
+    color: #000000;
+    background-color: #f5f5f5;
 }
 
 #info li {
@@ -193,19 +193,26 @@ main h2 {
 .contenedor-Redes {
 
     display: flex;
-    justify-content: center;
+
     /* Centra horizontalmente */
-    align-items: center;
+   justify-content: center  ;
+   
     /* Centra verticalmente */
 }
-.contenedor-Redes div{
-    margin-left: 40px;
+.contenedor-Redes p{
+
+
+    
+
 }
 
 .contenedor-Redes div:hover {
     text-decoration: underline;
 }
 
+hr{
+    display: none;
+}
 .cajas {
     border: 0 20px 0 20px;
     text-align: center;
@@ -229,26 +236,41 @@ main h2 {
 }
 
 body {
-    background-color: #ead6bb;
+    background-color: #ffffff;
 }
 
 .container-nav {
     border-style: double;
-    background-color: #bba37f;
+    background-color: #000000;
+    
 }
 
-.cajitas {
+.container-nav p {
+  
+    
+}
+
+.InputBusqueda{
+    display: none;
+}
+
+.container-nav a{
+    color: #f5f5f5;
+     
+ }
+
+ .cajitas {
     border-radius: 5px;
-    font-size: px;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-left: 10rem;
     margin-right: 10rem;
-}
-
-.img-grid {
-    font-size: 1.5em;
-    text-align: center;
+    display: flex;
+    color: initial; /* Define un color inicial si no lo tienes en la regla original */
+    background-color: initial; /* Define un fondo inicial si no lo tienes en la regla original */
+    transition: background-color 0.8s, color 0.8s; /* Define la transición para las propiedades que desees cambiar */
+     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .cajitas:hover {
@@ -256,18 +278,22 @@ body {
     background-color: #123a46;
 }
 
+.img-grid {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
 .img-grid img {
     border-radius: 40px 0 0 10px;
     border: 20px #bba37f solid;
     width: 50%;
     cursor: pointer;
+    transition: border 0.8s, color 0.8s; /* Define la transición para las propiedades que desees cambiar */
 }
 
 .img-grid img:hover {
-    border-radius: 40px 0 0 10px;
     border: 20px #123a46 solid;
-    width: 50%;
-    cursor: pointer;
 }
 
 .modal {
@@ -333,11 +359,15 @@ input[type="text"] {
     /* Cambiar el color del texto (rojo en este caso) */
 }
 
+.material-symbols-outlined {
+    color: #ffffff;
+    }
+
 footer {
     padding: 20px;
     margin-top: 30px;
-    color: #ead6bb;
-    background-color: #123a46;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 footer .cajas:hover {
@@ -359,6 +389,7 @@ footer .cajas:hover {
 }
 
 .cajas:hover {
+    transition: background-color 0.5s, color 0.5s;
     fill: #123a46;
 }
 
@@ -369,7 +400,9 @@ a {
 }
 
 
-
+.material-symbols-outlined{
+    color: #f5f5f5;
+}
 .contenedore {
     text-align: center;
     margin-bottom: 60px;
