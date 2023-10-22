@@ -1,15 +1,30 @@
-body {
-    padding: 20px;
+
+*{
+    padding: 0;
+    margin: 0;
 }
 
 .container-ropa1 {
     box-sizing: border-box;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(100px, auto);
-    grid-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
+.img-grid{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    width: 400px;
+}
+.img-grid img{
+    margin-top: 50px;
+    width: 175px;
+    height: 250px;
+}
+.contenedor-Redes a{
+    font-size: 25px;
 
+}
 
 
 .one {
@@ -84,7 +99,9 @@ body {
 }
 
 .carrito li {
-    margin: 0 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     list-style: none;
 }
 
@@ -100,13 +117,6 @@ body {
     margin-bottom: 50px;
     font-size: 500%;
     font-family: 'Merriweather', serif;
-}
-
-.logo-principal span {
-    padding: 0 20px 0 20px;
-    border-style: ridge;
-    border-radius: 20px;
-    background-color: #615441;
 }
 
 .linksRopa {
@@ -176,16 +186,9 @@ main h2 {
 
     text-align: left;
 }
-
-.logo span {
-    margin-top: 20px;
-    margin-left: 20px;
-    padding: 0 20px 0 20px;
-    border-style: ridge;
-    border-radius: 5px;
-    background-color: #615441;
+.logo img {
+    width: 300px;
 }
-
 
 .contenedor-Redes {
 
@@ -194,6 +197,9 @@ main h2 {
     /* Centra horizontalmente */
     align-items: center;
     /* Centra verticalmente */
+}
+.contenedor-Redes div{
+    margin-left: 40px;
 }
 
 .contenedor-Redes div:hover {
@@ -232,9 +238,8 @@ body {
 }
 
 .cajitas {
-
     border-radius: 5px;
-    font-size: 20px;
+    font-size: px;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-left: 10rem;
@@ -329,6 +334,8 @@ input[type="text"] {
 }
 
 footer {
+    padding: 20px;
+    margin-top: 30px;
     color: #ead6bb;
     background-color: #123a46;
 }
@@ -361,10 +368,7 @@ a {
     text-decoration: none;
 }
 
-h2 {
 
-    font-size: 2em;
-}
 
 .contenedore {
     text-align: center;
