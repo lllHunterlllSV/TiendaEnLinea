@@ -390,7 +390,7 @@ footer .cajas:hover {
 
 .cajas:hover {
     transition: background-color 0.5s, color 0.5s;
-    fill: #123a46;
+    fill: #000;
 }
 
 /* Cambiar el color de los enlaces visitados */
