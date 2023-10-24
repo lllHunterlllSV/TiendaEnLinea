@@ -5,6 +5,7 @@
 }
 
 .container-ropa1 {
+    margin-top: 20px;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
@@ -191,19 +192,8 @@ main h2 {
 }
 
 .contenedor-Redes {
-
     display: flex;
-
-    /* Centra horizontalmente */
    justify-content: center  ;
-   
-    /* Centra verticalmente */
-}
-.contenedor-Redes p{
-
-
-    
-
 }
 
 .contenedor-Redes div:hover {
@@ -232,7 +222,8 @@ hr{
 
 #icon {
     margin-left: 20px;
-    justify-content: right;
+    justify-content: right; 
+
 }
 
 body {
@@ -245,10 +236,7 @@ body {
     
 }
 
-.container-nav p {
-  
-    
-}
+
 
 .InputBusqueda{
     display: none;
@@ -442,4 +430,8 @@ a {
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2) inset;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #f0a100), to(#f70));
     background-image: linear-gradient(#ead6bb 10%, #f70 100%);
+}
+.main-principal{
+    margin-top: 30px;
+
 }
