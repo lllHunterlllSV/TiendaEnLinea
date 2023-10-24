@@ -1,0 +1,94 @@
+* {
+    padding: 5px5px5px5px;
+}
+table {
+    text-align: center;
+}
+.cell {
+    width: 30%;
+    border: 1px solid;
+    padding: 10px;
+    margin: 0px;
+}
+tr {
+    width: max-content;
+}
+table {
+    width: 100%;
+}
+div {
+    border: 1px solid;
+    border-color: black;
+}
+.menu {
+    display: flex
+}
+
+li {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.gridimg {
+    width: 60px;
+    height: 60px;
+}
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    width: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h1 {
+    text-align: center;
+}
+.menutop {
+    display: flex;
+    width: 40%;
+}
+
+.menutopcenter {
+    width: 20%;
+}
+
+.topmenuwrapper {
+    display: flex;
+}
+
+.bottommenuwrapper {
+    display: flex;
+}
+.bottommenu {
+    width: 50%;
+}
+.footerside {
+    width: 15%;
+}
+.footercenter {
+    width: 70%;
+}
+
+.socialmedia {
+    width: 30px;
+    height: 30px;
+}
+
+.rightsidefloat {
+    float: right;
+    text-align: right;
+}
+
+.leftsidefloat {
+    float: left;
+}
+#productstext {
+    text-align: center;
+}
+
+.mainmenu {
+    
+}
