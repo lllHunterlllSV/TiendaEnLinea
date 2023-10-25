@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="http://localhost/tienda_en_linea/style.css">
+    <link rel="stylesheet" href="http://localhost/TiendaEnLinea/style.css">
 
     <meta http-equiv="Expires" content="0">
     <meta http-equiv="Last-Modified" content="0">
